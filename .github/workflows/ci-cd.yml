@@ -52,5 +52,5 @@ jobs:
           push: true
           tags: |
             ${{secrets.DOCKERHUB_USERNAME}}/customer-churn-fastapi:latest
-            ${{secrets.DOCKERHUB_TOKEN}}/customer-churn-fastapi:${{github.sha}}
+            ${{secrets.DOCKERHUB_USERNAME}}/customer-churn-fastapi:${{github.sha}}
 
